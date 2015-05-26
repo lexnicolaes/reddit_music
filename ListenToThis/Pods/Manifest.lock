@@ -1,0 +1,25 @@
+PODS:
+  - Alamofire (1.2.2)
+  - AlamofireObjectMapper (0.2):
+    - Alamofire (~> 1.2)
+    - ObjectMapper (~> 0.10)
+  - FreeStreamer (2.12.11):
+    - Reachability (~> 3.0)
+  - HanekeSwift (0.9.1)
+  - ObjectMapper (0.12)
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - AlamofireObjectMapper (~> 0.2)
+  - FreeStreamer
+  - HanekeSwift
+
+SPEC CHECKSUMS:
+  Alamofire: 11a6022f5089887d92ffb5a3014c97a0a915ab98
+  AlamofireObjectMapper: 0ed3f7b154a9b35bded72b2fa6adeee7ac49a9a2
+  FreeStreamer: 37e0c8fe1e9fa6ced7349a9b01aaac81b013a814
+  HanekeSwift: 50d37bfbc4432edc649167e538c259feccb4a2bb
+  ObjectMapper: ef4a369cbab75546029ceb7e8155772b5f8e8841
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+COCOAPODS: 0.37.1
