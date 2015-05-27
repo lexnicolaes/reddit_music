@@ -1,6 +1,0 @@
-framework module FreeStreamer {
-  umbrella header "Pods-FreeStreamer-umbrella.h"
-
-  export *
-  module * { export * }
-}
