@@ -1,4 +1,4 @@
-# listentothis
+# Reddit Music
 
 To get started, install the external dependencies using CocoaPods:
 
