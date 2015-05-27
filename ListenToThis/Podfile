@@ -4,4 +4,3 @@ use_frameworks!
 
 pod 'AlamofireObjectMapper', '~> 0.2'
 pod 'HanekeSwift'
-pod 'FreeStreamer'
