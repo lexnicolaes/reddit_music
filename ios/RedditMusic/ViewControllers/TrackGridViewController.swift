@@ -1,6 +1,6 @@
 //
 //  TrackGridViewController.swift
-//  ListenToThis
+//  RedditMusic
 //
 //  Created by Lex Nicolaes on 03-05-15.
 //  Copyright (c) 2015 Polyon. All rights reserved.

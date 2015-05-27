@@ -1,6 +1,6 @@
 //
-//  ListenToThisTests.swift
-//  ListenToThisTests
+//  RedditMusicTests.swift
+//  RedditMusicTests
 //
 //  Created by Lex Nicolaes on 25-05-15.
 //  Copyright (c) 2015 Polyon. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class ListenToThisTests: XCTestCase {
+class RedditMusicTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

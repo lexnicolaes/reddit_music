@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  ListenToThis
+//  RedditMusic
 //
 //  Created by Lex Nicolaes on 25-05-15.
 //  Copyright (c) 2015 Polyon. All rights reserved.

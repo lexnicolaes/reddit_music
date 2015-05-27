@@ -9,7 +9,7 @@
         <!--Track Grid View Controller-->
         <scene sceneID="0r2-xf-69t">
             <objects>
-                <collectionViewController id="CtG-eB-SVW" customClass="TrackGridViewController" customModule="ListenToThis" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController id="CtG-eB-SVW" customClass="TrackGridViewController" customModule="RedditMusic" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" indicatorStyle="white" dataMode="prototypes" id="d01-hZ-Udp">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -107,7 +107,7 @@
         <!--Settings View Controller-->
         <scene sceneID="s05-tF-HgG">
             <objects>
-                <viewController id="heb-VA-Hq2" customClass="SettingsViewController" customModule="ListenToThis" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="heb-VA-Hq2" customClass="SettingsViewController" customModule="RedditMusic" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wos-Pb-ztK"/>
                         <viewControllerLayoutGuide type="bottom" id="x1i-Y5-RZx"/>
@@ -148,7 +148,7 @@
         <!--Player View Controller-->
         <scene sceneID="udZ-Qk-hMb">
             <objects>
-                <viewController id="zwr-cr-0zl" customClass="PlayerViewController" customModule="ListenToThis" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="zwr-cr-0zl" customClass="PlayerViewController" customModule="RedditMusic" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7Cr-Ra-7rX"/>
                         <viewControllerLayoutGuide type="bottom" id="ErP-zW-Bnp"/>
