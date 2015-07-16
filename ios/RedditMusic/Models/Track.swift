@@ -10,8 +10,10 @@ import UIKit
 import ObjectMapper
 
 class Track: Mappable {
-    var name: String?
-    var length: Int?
+    var artistName: String?
+    var trackName: String?
+    var streamUrl: String?
+    var artUrl: String?
     
     required init?(_ map: Map) {
         mapping(map)
@@ -19,8 +21,10 @@ class Track: Mappable {
     
     // Mappable
     func mapping(map: Map) {
-        name    <- map["name"]
-        length  <- map["length"]
+        artistName <- map["artist_name"]
+        trackName  <- map["track_name"]
+        streamUrl  <- map["stream_url"]
+        artUrl     <- map["art_url"]
     }
 }
 

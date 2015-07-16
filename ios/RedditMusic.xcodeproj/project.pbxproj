@@ -17,6 +17,7 @@
 		C65847C81B13B09C003A5F0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C65847C71B13B09C003A5F0C /* Images.xcassets */; };
 		C65847CB1B13B09C003A5F0C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C65847C91B13B09C003A5F0C /* LaunchScreen.xib */; };
 		C65847D71B13B09C003A5F0C /* RedditMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65847D61B13B09C003A5F0C /* RedditMusicTests.swift */; };
+		D79715D81B5843FC009C99FC /* TrackList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79715D71B5843FC009C99FC /* TrackList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		C65847D01B13B09C003A5F0C /* RedditMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedditMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C65847D51B13B09C003A5F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C65847D61B13B09C003A5F0C /* RedditMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditMusicTests.swift; sourceTree = "<group>"; };
+		D79715D71B5843FC009C99FC /* TrackList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackList.swift; sourceTree = "<group>"; };
 		D8C03F21780D3B93D2AFCF38 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				C64E1C731B14F21A00B881CF /* Track.swift */,
+				D79715D71B5843FC009C99FC /* TrackList.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -225,11 +228,13 @@
 		C65847B31B13B09C003A5F0C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = Polyon;
 				TargetAttributes = {
 					C65847BA1B13B09C003A5F0C = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = CKRRV97MN7;
 					};
 					C65847CF1B13B09C003A5F0C = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -346,6 +351,7 @@
 				C65847C11B13B09C003A5F0C /* AppDelegate.swift in Sources */,
 				C64E1C741B14F21A00B881CF /* Track.swift in Sources */,
 				C64E1C781B14F22500B881CF /* TrackGridViewController.swift in Sources */,
+				D79715D81B5843FC009C99FC /* TrackList.swift in Sources */,
 				C64E1C7C1B150A3D00B881CF /* SettingsViewController.swift in Sources */,
 				C64E1C771B14F22500B881CF /* PlayerViewController.swift in Sources */,
 			);
@@ -468,10 +474,13 @@
 			baseConfigurationReference = 2578B74674507D082E9676C8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
 				INFOPLIST_FILE = "RedditMusic/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = RedditMusic;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -480,10 +489,13 @@
 			baseConfigurationReference = D8C03F21780D3B93D2AFCF38 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
 				INFOPLIST_FILE = "RedditMusic/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = RedditMusic;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

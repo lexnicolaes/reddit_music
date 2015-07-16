@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Alamofire
+import AlamofireObjectMapper
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +18,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: true)
+        
+        
+        let URL = "http://redditmusic.lexnicolaes.nl/test.json"
+        Alamofire.request(.GET, URL, parameters: nil)
+            .responseObject { (response: TrackList?, error: NSError?) in
+                println(response?.timestamp)
+                if let trackList = response?.tracks {
+                    for track in trackList {
+                        println("\(track.artistName) - \(track.trackName)")
+                    }
+                }
+        }
         
         return true
     }
